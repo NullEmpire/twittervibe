@@ -1,0 +1,45 @@
+doctype 5
+html(lang="en")
+	head
+		title NullStrap
+		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+		
+		-if(typeof(ENV) === 'undefined' || !ENV)
+
+			// Vendor CSS
+			link(rel="stylesheet", href="public/css/vendor.css") 
+
+			//CSS Files
+			link(rel="stylesheet", href="public/css/lib/main.css")
+
+			// Vendor JS Libs
+			script(src="socket.io/socket.io.js")
+			script(src="public/js/vendor.js")
+
+			// Handlebars Templates (pre-compiled by server)
+			script(src="public/templates/templates.js")
+
+			// JS Files
+			script(src="public/js/lib/router.js")
+			script(src="public/js/lib/settings.js")
+			script(src="public/js/lib/app.js")
+
+		- else
+
+			//Vendor CSS 
+			link(rel="stylesheet", href="public/css/vendor.css")
+
+			//CSS Build File
+			link(rel="stylesheet", href="public/css/build.css")
+
+			//Vendor JS Libs 
+			script(src="socket.io/socket.io.js")
+			script(src="public/js/vendor.js")
+
+			// Templates
+			script(src="public/templates/templates.js")
+
+			//JS Build File
+			script(src="public/js/build.js")
+
+	body

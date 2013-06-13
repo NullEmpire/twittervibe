@@ -1,9 +1,8 @@
-This is an experiment with Node.js, Sphero and the Alchemy API.
+This is an experiment with Node.js, Twitter, Sphero and the Alchemy API.
 
 * Pull tweets from the twitter streaming API
 * Pass them to the Alchemy API to get the sentiment of the tweet
 * Adjust the Sphero color accordingly
-
 
 * We also tried it with 3 spheros and shoved them into an Ikea lamp
 <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/936271_384882201628524_1089395683_n.jpg" />

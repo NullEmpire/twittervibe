@@ -1,37 +1,16 @@
-# NullStrap
-## A CoffeeScript / Express.js bootstrap
+This is an experiment with Node.js, Sphero and the Alchemy API.
 
-### Features
+* Pull tweets from the twitter streaming API
+* Pass them to the Alchemy API to get the sentiment of the tweet
+* Adjust the Sphero color accordingly
 
-* Cakefile for a single command install and dev setup
-* Watches folders for Stylus, CoffeeScript, and Handlebars changes
-* Bower support for easily adding client-side dependencies
 
-====================
+* We also tried it with 3 spheros and shoved them into an Ikea lamp
+<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn1/936271_384882201628524_1089395683_n.jpg" />
 
-## Technologies
-
-* Express.js - http://expressjs.com/
-* Bower - http://twitter.github.com/bower/
-* Jade - http://jade-lang.com/
-* Handlebars - http://handlebarsjs.com/
-* CoffeeScript - http://coffeescript.org/
-* Banshee - http://imulus.github.com/banshee/
-* Stylus - http://learnboost.github.io/stylus/
-
-## Dependencies
-
-This command needs to be ran first if CoffeeScript is not installed on your system
-
-* run `sudo npm install -g coffee-script`
-
-## Setup
-
-Install all of the dependencies necessary for the bootstrap
-
-* run `sudo cake system`
-* run `cake install`
-
+## Resources
+* Alchemy API - http://www.alchemyapi.com/
+* Sphero - http://www.gosphero.com/
 
 ## Development
 
@@ -39,6 +18,3 @@ The following command will watch and compile Coffeescript, Stylus, and Handlebar
 
 * run `cake dev`
 
-## Deployment
-
-* run `cake build`

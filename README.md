@@ -29,7 +29,7 @@ module.exports = {
 	}
 }
 ````
-The following command will watch and compile Coffeescript, Stylus, and Handlebars files. It also watches server.js for changes.
+The following command will watch and compile the Coffeescript.
 
 * run `cake dev`
 

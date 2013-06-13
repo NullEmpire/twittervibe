@@ -1,4 +1,4 @@
-This is an experiment with Node.js, Twitter, Sphero and the Alchemy API.
+This is an experiment with Node.js, Twitter, Sphero and the Alchemy API. The idea was to get a general "vibe" of current tweets and represent that using a Sphero.
 
 * Pull tweets from the twitter streaming API
 * Pass them to the Alchemy API to get the sentiment of the tweet

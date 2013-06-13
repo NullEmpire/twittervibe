@@ -14,6 +14,21 @@ This is an experiment with Node.js, Twitter, Sphero and the Alchemy API.
 
 ## Development
 
+### Create a file called config.js in the root dir
+It should look like this
+````javascript
+module.exports = {
+	twitter : {
+		consumerKey : 'your consumer key',
+		consumerSecret : 'your consumer secret',
+		accessTokenKey : 'your access token key',
+		accessTokenSecret : 'your access token secret'
+	},
+	alchemy : {
+		apiKey : 'your api key'
+	}
+}
+````
 The following command will watch and compile Coffeescript, Stylus, and Handlebars files. It also watches server.js for changes.
 
 * run `cake dev`
